@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@600&family=EB+Garamond:ital,wght@1,500&family=Explora&family=Nunito:ital,wght@1,300;1,700&family=Playfair+Display:wght@700&family=Raleway:ital,wght@1,600&display=swap');
+
+body{
+  font-family: 'Belanosima', sans-serif;
+  font-family: 'EB Garamond', serif;
+  font-family: 'Explora', cursive;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Raleway', sans-serif;
+}
+.top-bar{
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-evenly;
+  background: #17A83F;
+}
+.top-bar a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Belanosima', sans-serif;
+  font-family: 'EB Garamond', serif;
+  font-family: 'Explora', cursive;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Raleway', sans-serif;
+  transition-duration: 0.4s;
+  width: 70px;
+  text-align: center;
+  height: 25px;
+  border-radius: 15px;
+
+}
+.top-bar a:hover{
+  background: #0a3d18;
+}
+.statement{
+  margin-top: 50px;
+  color: white;
+  background: rgb(48, 48, 48);
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+}
+details{
+  margin-top: 50px;
+  margin-left: 10px;
+}
+h2{
+  margin: 20px;
+}
+.container{
+  padding: 10px;
+  margin-top: 20px;
+  background: rgb(219, 219, 219);
+  width: 260px;
+  border-radius: 15px;
+  transition-duration: 0.4s;
+}
+.container img{
+  border-radius: 15px;
+}
+.product-brend{
+  color: #9E3500;
+}
+.product-name{
+  margin-top: 5px;
+}
+.product-price{
+  margin-top: 5px;
+  font-size: 15px;
+}
+.container:hover{
+  scale: 1.05;
+}
+header{
+  display: flex;
+  justify-content: space-evenly;
+}
